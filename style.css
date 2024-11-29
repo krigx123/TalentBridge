@@ -119,9 +119,11 @@ header {
 }
 
 .img-container img {
-  width: 400px;
+  width: 500px;
   height: 500px;
-  margin: 0 0 40px 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 /* HEADER END */
 /* POPULARITY SECTION START */
