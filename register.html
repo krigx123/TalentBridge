@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <!-- NAV SECTION -->
+    <nav>
+      <div class="logo">
+        <h1>TALENTBRIDGE</h1>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="form-container">
+      <h2>REGISTER</h2>
+      <form action="register.php" method="POST">
+        <div class="entry checkbox">
+          <label for="recruiter">Recruiter</label>
+          <input type="checkbox" id="recruiter" name="recruiter" required />
+          <label for="worker">Worker</label>
+          <input type="checkbox" id="worker" name="worker" required />
+        </div>
+
+        <div class="entry">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="entry">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="entry">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm_password" required />
+        </div>
+
+        <button type="submit">Register</button>
+
+        <div class="link">
+          <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
